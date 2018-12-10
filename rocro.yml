@@ -3,7 +3,7 @@ inspecode:
     thresholds:
       num-issues: 1
     options:
-      - --: make -C directory-walk
+      - --: make
       - -disable-checker: stm-0117.vs2003
       - -disable-checker: stm-0117.vs2005
       - -disable-checker: stm-0117.others
