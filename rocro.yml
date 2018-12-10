@@ -1,0 +1,11 @@
+inspecode:
+  stm-0117:
+    thresholds:
+      num-issues: 1
+    options:
+      - --: make -C directory-walk
+      - -disable-checker: stm-0117.vs2003
+      - -disable-checker: stm-0117.vs2005
+      - -disable-checker: stm-0117.others
+  misspell: default
+  cppcheck: default
