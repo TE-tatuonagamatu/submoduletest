@@ -1,4 +1,7 @@
 inspecode:
+  scan-build:
+    options:
+      - --: make
   stm-0117:
     thresholds:
       num-issues: 1
